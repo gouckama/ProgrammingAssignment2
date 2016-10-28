@@ -83,7 +83,7 @@ cacheSolve <- function(x, ...) {
   if(!is.null(inversedMatrix)) {
     message("getting cached data")
     return(inversedMatrix)
-  }
+  } ## end if
   
   ## If the cached version is null, compute the inverse matrix.
   ## Get the original matrix
